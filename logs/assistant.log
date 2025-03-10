@@ -129,3 +129,34 @@
 2025-02-03 22:57:30,296 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\comtypes\gen'
 2025-02-03 22:57:45,205 - assistant - INFO - Recognized speech: cartoon dikhana exit
 2025-02-03 22:57:45,240 - assistant - INFO - Executing command: cartoon dikhana exit
+2025-03-10 22:39:11,951 - assistant - INFO - Application started
+2025-03-10 22:39:27,370 - assistant - INFO - Recognized speech: increase brightness
+2025-03-10 22:39:27,388 - assistant - INFO - Executing command: increase brightness
+2025-03-10 22:39:27,677 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-03-10 22:39:27,678 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\comtypes\gen'
+2025-03-10 22:39:41,705 - assistant - INFO - Recognized speech: increase brightness
+2025-03-10 22:39:41,738 - assistant - INFO - Executing command: increase brightness
+2025-03-10 22:39:49,620 - assistant - INFO - Recognized speech: increase brightness
+2025-03-10 22:39:49,654 - assistant - INFO - Executing command: increase brightness
+2025-03-10 22:39:57,419 - assistant - WARNING - Could not understand audio
+2025-03-10 22:39:57,451 - assistant - INFO - Empty command received
+2025-03-10 22:40:00,597 - assistant - WARNING - Could not understand audio
+2025-03-10 22:40:00,637 - assistant - INFO - Empty command received
+2025-03-10 22:40:05,029 - assistant - INFO - Recognized speech: increase brightness
+2025-03-10 22:40:05,063 - assistant - INFO - Executing command: increase brightness
+2025-03-10 22:40:12,476 - assistant - WARNING - Could not understand audio
+2025-03-10 22:40:12,514 - assistant - INFO - Empty command received
+2025-03-10 22:40:16,188 - assistant - WARNING - Could not understand audio
+2025-03-10 22:40:16,220 - assistant - INFO - Empty command received
+2025-03-10 22:40:22,791 - assistant - INFO - Recognized speech: decrease brightness
+2025-03-10 22:40:22,828 - assistant - INFO - Executing command: decrease brightness
+2025-03-10 22:40:32,637 - assistant - INFO - Recognized speech: exit
+2025-03-10 22:40:32,673 - assistant - INFO - Executing command: exit
+2025-03-10 22:41:04,935 - assistant - INFO - Recognized speech: increase brightness
+2025-03-10 22:41:04,967 - assistant - INFO - Executing command: increase brightness
+2025-03-10 22:41:12,464 - assistant - WARNING - Could not understand audio
+2025-03-10 22:41:12,507 - assistant - INFO - Empty command received
+2025-03-10 22:41:18,436 - assistant - INFO - Recognized speech: increase brightness
+2025-03-10 22:41:18,481 - assistant - INFO - Executing command: increase brightness
+2025-03-10 22:41:27,732 - assistant - INFO - Recognized speech: exit
+2025-03-10 22:41:27,774 - assistant - INFO - Executing command: exit
