@@ -13,6 +13,12 @@ from services.screenshot import ScreenshotService
 from services.system_monitor import SystemMonitor
 from services.weather import WeatherService
 from services.ai_services import AIServices
+from services.brightness_control import (
+    increase_brightness,
+    decrease_brightness,
+    get_current_brightness,
+    set_screen_brightness,
+)
 
 
 class Assistant:
@@ -98,6 +104,50 @@ class Assistant:
             elif "type" in command:
                 text_to_type = command.split("type")[-1].strip()
                 response = self.apps.type_in_application(text_to_type)
+
+            elif "increase brightness" in command:
+                try:
+                    success, new_brightness, message = increase_brightness()
+                    if success:
+                        self.audio.speak(message)
+                        st.write(
+                            f"<div class='command-result'>{message}</div>",
+                            unsafe_allow_html=True,
+                        )
+                    else:
+                        self.audio.speak("Sorry, I couldn't adjust the brightness")
+                        st.write(
+                            f"<div class='error-text'>{message}</div>",
+                            unsafe_allow_html=True,
+                        )
+                except Exception as e:
+                    self.audio.speak("Sorry, I couldn't adjust the brightness")
+                    st.write(
+                        f"<div class='error-text'>Error: {str(e)}</div>",
+                        unsafe_allow_html=True,
+                    )
+
+            elif "decrease brightness" in command:
+                try:
+                    success, new_brightness, message = decrease_brightness()
+                    if success:
+                        self.audio.speak(message)
+                        st.write(
+                            f"<div class='command-result'>{message}</div>",
+                            unsafe_allow_html=True,
+                        )
+                    else:
+                        self.audio.speak("Sorry, I couldn't adjust the brightness")
+                        st.write(
+                            f"<div class='error-text'>{message}</div>",
+                            unsafe_allow_html=True,
+                        )
+                except Exception as e:
+                    self.audio.speak("Sorry, I couldn't adjust the brightness")
+                    st.write(
+                        f"<div class='error-text'>Error: {str(e)}</div>",
+                        unsafe_allow_html=True,
+                    )
 
             else:
                 # Use AI service for unrecognized commands
