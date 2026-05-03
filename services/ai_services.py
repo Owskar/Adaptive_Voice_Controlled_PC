@@ -6,7 +6,7 @@ import streamlit as st
 class AIServices:
     def __init__(self):
         # Replace with your API key from Google AI Studio
-        self.api_key = "AIzaSyDOhz3gyd2MR8HoeuHs46dR10DlLiT51xQ"
+        self.api_key = "YOUR_API_KEY"
         genai.configure(api_key=self.api_key)
         self.model = genai.GenerativeModel("gemini-2.0-flash")
 
